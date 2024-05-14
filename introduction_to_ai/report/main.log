@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.6)  14 MAY 2024 22:46
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023) (preloaded format=pdflatex 2024.3.6)  14 MAY 2024 23:01
 entering extended mode
  \write18 enabled.
  file:line:error style messages enabled.
@@ -200,103 +200,42 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 LaTeX Warning: No \author given.
 
 
-e:/Workspace/Jupyter Notebook/2343108_EMATM0067/introduction_to_ai/report/main.tex:62: LaTeX Error: Illegal character in array arg.
+Overfull \hbox (0.71776pt too wide) in paragraph at lines 55--58
+\OT1/cmr/m/n/10.95 This dataset com-prim-ises fea-tures such as species, is-land and bill[]length[]mm.
+ []
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.62 		\begin
-             {tabular}{cccccc}
-You're in trouble here.  Try typing  <return>  to proceed.
-If that doesn't work, type  X <return>  to quit.
+[1
 
-e:/Workspace/Jupyter Notebook/2343108_EMATM0067/introduction_to_ai/report/main.tex:63: Misplaced \noalign.
-\toprule ->\noalign 
-                    {\ifnum 0=`}\fi \@aboverulesep =\abovetopsep \global \@b...
-l.63 			\toprule
-                
-I expect to see \noalign only after the \cr of
-an alignment. Proceed, and I'll ignore this case.
+{c:/texlive/2023/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2{c:/texlive/2023/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}]
+<logo-full-colour.png, id=20, 889.3225pt x 256.96pt>
+File: logo-full-colour.png Graphic file (type png)
+<use logo-full-colour.png>
+Package pdftex.def Info: logo-full-colour.png  used on input line 162.
+(pdftex.def)             Requested size: 266.7988pt x 77.0886pt.
 
-e:/Workspace/Jupyter Notebook/2343108_EMATM0067/introduction_to_ai/report/main.tex:64: Missing } inserted.
-<inserted text> 
-                }
-l.64 			f
-         eatures & type & count & nunique & \%null\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+Underfull \hbox (badness 3679) in paragraph at lines 178--183
+[]\OT1/cmr/m/n/10.95 Wikibooks, \OT1/cmr/m/it/10.95 La-TeX/Bibliography Man-age-ment\OT1/cmr/m/n/10.95 , [0nline], Ac-cessed
+ []
 
-e:/Workspace/Jupyter Notebook/2343108_EMATM0067/introduction_to_ai/report/main.tex:64: Missing } inserted.
-<inserted text> 
-                }
-l.64 			f
-         eatures & type & count & nunique & \%null\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
 
-e:/Workspace/Jupyter Notebook/2343108_EMATM0067/introduction_to_ai/report/main.tex:64: Missing } inserted.
-<inserted text> 
-                }
-l.64 			f
-         eatures & type & count & nunique & \%null\\
-I've inserted something that you may have forgotten.
-(See the <inserted text> above.)
-With luck, this will get me unwedged. But if you
-really didn't forget anything, try typing `2' now; then
-my insertion and my current dilemma will both disappear.
+Underfull \hbox (badness 6396) in paragraph at lines 178--183
+\OT1/cmr/m/n/10.95 at https://en.wikibooks.org/wiki/LaTeX/Bibliography[]Management,
+ []
 
-e:/Workspace/Jupyter Notebook/2343108_EMATM0067/introduction_to_ai/report/main.tex:64: Missing \cr inserted.
-<inserted text> 
-                \cr 
-l.64 			f
-         eatures & type & count & nunique & \%null\\
-I'm guessing that you meant to end an alignment here.
+[3 <./logo-full-colour.png>] (./main.aux) ) 
+Here is how much of TeX's memory you used:
+ 2794 strings out of 476025
+ 41306 string characters out of 5794016
+ 1860382 words of memory out of 5000000
+ 23231 multiletter control sequences out of 15000+600000
+ 521346 words of font info for 65 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 57i,14n,62p,694b,228s stack positions out of 10000i,1000n,20000p,200000b,200000s
+<c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/amsfonts/cm/cmti8.pfb><c:/texlive/2023/texmf-dist/fonts/type1/public/cm-super/sfrm1095.pfb>
+Output written on main.pdf (3 pages, 170863 bytes).
+PDF statistics:
+ 83 PDF objects out of 1000 (max. 8388607)
+ 49 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 6 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-e:/Workspace/Jupyter Notebook/2343108_EMATM0067/introduction_to_ai/report/main.tex:64: Missing { inserted.
-<inserted text> 
-                {
-l.64 			f
-         eatures & type & count & nunique & \%null\\
-I've put in what seems to be necessary to fix
-the current column of the current alignment.
-Try to go on, since this might almost work.
-
-e:/Workspace/Jupyter Notebook/2343108_EMATM0067/introduction_to_ai/report/main.tex:64: Undefined control sequence.
-\@BTrule ...\doublerulesep \fi \fi \fi \@BTswitch 
-                                                  
-l.64 			f
-         eatures & type & count & nunique & \%null\\
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-e:/Workspace/Jupyter Notebook/2343108_EMATM0067/introduction_to_ai/report/main.tex:64: Misplaced alignment tab character &.
-l.64 			features &
-                   type & count & nunique & \%null\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-e:/Workspace/Jupyter Notebook/2343108_EMATM0067/introduction_to_ai/report/main.tex:64: Misplaced alignment tab character &.
-l.64 			features & type &
-                          count & nunique & \%null\\
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-e:/Workspace/Jupyter Notebook/2343108_EMATM0067/introduction_to_ai/report/main.tex:64: Mispla

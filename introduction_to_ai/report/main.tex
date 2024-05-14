@@ -54,19 +54,27 @@ It is a good idea to break your document into sections and subsections
 \subsection{EDA on Penguin Datasets}
 This dataset comprimises features such as species, island and bill\_length\_mm. Firstly, I conducted an analysis 
 to determine the type, number of values, number of unique values, and proportion of missing values for each feature within the dataset. The
-anlysis is present in Table 1.\\
-\\
+anlysis is present in Table 1.
 
-\begin{tabular}{cccccc}
-	\toprule
-	features & type & count & nunique & \%null\\
-	\midrule
-	species & object & 344 & 3 & 0.00 \\
-	island & object & 344 & 3 & 0.00 \\
-	bill\_length\_mm& float64& 342& 164& 0.581395\\
-	\bottomrule
- \end{tabular}
-\section{Nxet}
+\begin{table}[h]
+	\centering
+	\caption{Summary of Features}
+	\begin{tabular}{lcccc}
+		\toprule
+		Feature & Type & Count & Nunique & \% Null \\
+		\midrule
+		rowid & int64 & 344 & 344 & 0.000000 \\
+		species & object & 344 & 3 & 0.000000 \\
+		island & object & 344 & 3 & 0.000000 \\
+		bill\_length\_mm & float64 & 342 & 164 & 0.581395 \\
+		bill\_depth\_mm & float64 & 342 & 80 & 0.581395 \\
+		flipper\_length\_mm & float64 & 342 & 55 & 0.581395 \\
+		body\_mass\_g & float64 & 342 & 94 & 0.581395 \\
+		sex & object & 333 & 2 & 3.197674 \\
+		year & int64 & 344 & 3 & 0.000000 \\
+		\bottomrule
+	\end{tabular}
+	\end{table}
 
 We can \emph{emphasis} some words, i.e., make them \emph{italic}, and we can make some words \textbf{bold}.
 Note how using a new line in the code does not correspond to a new line in the output file.
