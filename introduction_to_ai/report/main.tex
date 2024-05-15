@@ -63,7 +63,6 @@ anlysis is present in Table 1.
 		\toprule
 		Feature & Type & Count & Nunique & \% Null \\
 		\midrule
-		rowid & int64 & 344 & 344 & 0.000000 \\
 		species & object & 344 & 3 & 0.000000 \\
 		island & object & 344 & 3 & 0.000000 \\
 		bill\_length\_mm & float64 & 342 & 164 & 0.581395 \\
@@ -74,16 +73,26 @@ anlysis is present in Table 1.
 		year & int64 & 344 & 3 & 0.000000 \\
 		\bottomrule
 	\end{tabular}
-	\end{table}
+\end{table}
 
-We can \emph{emphasis} some words, i.e., make them \emph{italic}, and we can make some words \textbf{bold}.
-Note how using a new line in the code does not correspond to a new line in the output file.
-Same if we have        a           large                white                   space.
+\noindent
+Obviously, the proportion of missing values is not substantial. Therefore, rows containing missing values will be removed.
+Subsequently, I employed Cramér's V statistic to measure the correlation between different features and generated a heatmap accordingly.
+According to Figure 1, the features sex and year exhibit the quite low correlation with species; hence, these two features 
+will not be applied to construct the prediction model.
 
-Instead, if we want a new line/new paragraph, you need to press enter twice, or use \\
-which starts a new line but not a new paragraph.
 
-\subsection{lists}
+\begin{figure}
+    \centering
+    \includegraphics[scale=0.45]{Cramér-s-V.png}
+    \caption{Correlation between different features}
+    \label{fig: }
+\end{figure}
+
+
+
+
+\subsection{Model Construction}
 
 Lists can be numbered or ununmbered, and you can have sub-list inside a list.
 
